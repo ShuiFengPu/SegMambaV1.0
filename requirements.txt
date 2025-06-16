@@ -1,0 +1,17 @@
+#先下载注释部分
+#pip3 install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118
+#pip3 install timm==0.9.16 tensorboardX einops torchprofile fvcore==0.1.5.post20221221 triton==2.1.0
+#cd model/lib_mamba/kernels/selective_scan && pip install . && cd ../../../..
+#git clone https://github.com/NVIDIA/apex && cd apex && pip3 install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./ (optional)
+#pip3 install terminaltables pycocotools prettytable xtcocotools
+#pip3 install mmpretrain==1.2.0 mmdet==3.3.0 mmsegmentation==1.2.2
+#pip3 install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.1/index.html
+#cd det/backbones/lib_mamba/kernels/selective_scan && pip install . && cd ../../../..
+
+mmengine>=1.7.1
+timm>=0.6.12
+fvcore>=0.1.5
+PyWavelets>=1.4.1
+ftfy==6.2.3
+wcwidth==0.2.13
+regex==2024.11.6
